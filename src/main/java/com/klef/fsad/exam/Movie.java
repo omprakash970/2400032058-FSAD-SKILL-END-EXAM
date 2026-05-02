@@ -1,5 +1,5 @@
-
-import jakarta.persistence.*;
+package com.klef.fsad.exam;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "movie")
@@ -21,7 +21,6 @@ public class Movie
         this.status = status;
     }
 
-    // Getters and Setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
